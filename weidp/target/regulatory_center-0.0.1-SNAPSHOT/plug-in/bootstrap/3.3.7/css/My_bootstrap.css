@@ -1,0 +1,20 @@
+body{line-height:2.428571;font-size:12px}
+label{margin-left:16px}
+.form-inline .form-control{width:172px}
+.form-control{height:26px;font-size:13px;padding:3px 12px;}
+.container{width:100%;padding-left:0px;padding-right:0}
+.btn{font-size:10px;height:26px;line-height:10px}
+.bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*="col-"]{margin-left:84px;margin-top:3px}
+.btn-group > .btn:first-child{height:26px;line-height:10px}
+.btn1{height:31px}
+.form-group{padding:0 12px}
+.fixed-table-toolbar{background:#93bee8;}
+.form-inline{border:1px solid #93bee8;margin-left:16px;margin-right:16px;padding:8px 0;margin-top:8px}
+.group3{margin-left:7px;}
+.btn-default{height:26px}
+.form-inline .input-group > .form-control{width:172px}
+.fixed-table-toolbar .bs-bars, .fixed-table-toolbar .search, .fixed-table-toolbar .columns{margin-top:6px !important;margin-bottom:6px !important}
+.btn2{position:absolute;right:34px}
+.fixed-table-toolbar .columns-right{margin-right:6px}
+.group1{margin-left:40%;margin-top:3px;}
+.group2{margin-top:3px}

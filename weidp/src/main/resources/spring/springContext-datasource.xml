@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 项目数据源配置类别 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd
+        http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
+
+
+
+
+	<!-- 加载数据库连接配置 -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:conf/db/druid-oracle.properties</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- 配置数据源 使用的是Druid数据源读写 -->
+	<bean name="dataSourceRW" class="com.alibaba.druid.pool.DruidDataSource"
+		init-method="init" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${rw.jdbc.url}" />
+		<property name="username" value="${rw.jdbc.username}" />
+		<property name="password" value="${rw.jdbc.password}" />
+
+		<!-- 初始化连接大小 -->
+		<property name="initialSize" value="${druid.initialSize}" />
+		<!-- 连接池最大使用连接数量 -->
+		<property name="maxActive" value="${druid.maxActive}" />
+		<!-- 连接池最小空闲 -->
+		<property name="minIdle" value="${druid.minIdle}" />
+		
+		<!-- 获取连接最大等待时间 -->
+		<property name="maxWait" value="${druid.maxWait}" />
+		
+		<!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
+		<property name="poolPreparedStatements" value="${druid.poolPreparedStatements}" />
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="${druid.maxPoolPreparedStatementPerConnectionSize}" />
+		
+		<!-- 用来检测有效sql -->
+		<property name="validationQuery" value="${validationQuery}" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testOnReturn" value="false" />
+		<property name="testWhileIdle" value="true" />
+		
+		<!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+		<property name="timeBetweenEvictionRunsMillis" value="${druid.timeBetweenEvictionRunsMillis}" />
+		<!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+		<property name="minEvictableIdleTimeMillis" value="${druid.minEvictableIdleTimeMillis}" />
+		
+		<!-- 监控数据库 -->
+		<property name="filters" value="${druid.filters}" />
+		
+		<!-- 打开removeAbandoned功能 , 排查连接泄露时使用, 平常关闭, 否则影响性能-->
+		<property name="removeAbandoned" value="${druid.removeAbandoned}" />
+		<!-- 1800秒，也就是30分钟 -->
+		<property name="removeAbandonedTimeout" value="1800" />
+		<!-- 关闭abanded连接时输出错误日志 -->
+		<property name="logAbandoned" value="true" />
+	</bean>
+
+	<!-- 配置数据源 使用的是Druid数据源只读 -->
+	<bean name="dataSourceR" class="com.alibaba.druid.pool.DruidDataSource"
+		init-method="init" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${r.jdbc.url}" />
+		<property name="username" value="${r.jdbc.username}" />
+		<property name="password" value="${r.jdbc.password}" />
+
+		<!-- 初始化连接大小 -->
+		<property name="initialSize" value="${druid.initialSize}" />
+		<!-- 连接池最大使用连接数量 -->
+		<property name="maxActive" value="${druid.maxActive}" />
+		<!-- 连接池最小空闲 -->
+		<property name="minIdle" value="${druid.minIdle}" />
+		
+		<!-- 获取连接最大等待时间 -->
+		<property name="maxWait" value="${druid.maxWait}" />
+		
+		<!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
+		<property name="poolPreparedStatements" value="${druid.poolPreparedStatements}" />
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="${druid.maxPoolPreparedStatementPerConnectionSize}" />
+		
+		<!-- 用来检测有效sql -->
+		<property name="validationQuery" value="${validationQuery}" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testOnReturn" value="false" />
+		<property name="testWhileIdle" value="true" />
+		
+		<!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+		<property name="timeBetweenEvictionRunsMillis" value="${druid.timeBetweenEvictionRunsMillis}" />
+		<!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+		<property name="minEvictableIdleTimeMillis" value="${druid.minEvictableIdleTimeMillis}" />
+		
+		<!-- 监控数据库 -->
+		<property name="filters" value="${druid.filters}" />
+		
+		<!-- 打开removeAbandoned功能 , 排查连接泄露时 使用, 平常关闭, 否则影响性能-->
+		<property name="removeAbandoned" value="${druid.removeAbandoned}" />
+		<!-- 1800秒，也就是30分钟 -->
+		<property name="removeAbandonedTimeout" value="1800" />
+		<!-- 关闭abanded连接时输出错误日志 -->
+		<property name="logAbandoned" value="true" />
+	</bean>
+	
+	<bean id="dataSourceRWORR" class="com.fotic.common.dataswitch.DynamicDataSource">
+		<property name="targetDataSources">
+			<map key-type="java.lang.String">
+				<entry key="update" value-ref="dataSourceRW" />
+			</map>
+		</property>
+		<property name="defaultTargetDataSource" ref="dataSourceR" />
+	</bean>
+
+ 
+</beans>

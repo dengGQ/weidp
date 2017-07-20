@@ -1,0 +1,19 @@
+.toolbar {
+	background-color : #CBDEF2;
+	padding :5px
+}
+
+.toolbar button {
+	border-color: #adadad;
+	background-color : #EEEEEE;
+	border : 1px solid transparent;
+}
+
+.query_form {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.query_form_input {
+	    padding-top: 10px;
+}
