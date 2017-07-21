@@ -13,7 +13,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 
    	<!-- 自动扫描该包，使SpringMVC认为包下用了@controller注解的类是控制器 -->
 	<context:component-scan
-		base-package="com.fotic.**.controller" />
+		base-package="com.hhr.**.controller" />
 
 	<!-- 扫描指定的包中的类上的注解，常用的注解有： -->
 	<!-- @Controller 声明Action组件 -->

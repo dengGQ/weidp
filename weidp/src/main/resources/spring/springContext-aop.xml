@@ -12,6 +12,6 @@
 
     <aop:aspectj-autoproxy proxy-target-class="true" />
     <beans:bean id="methodMonitorAdvice"
-        class="com.fotic.base.aop.MethodMonitorAdvice">
+        class="com.hhr.base.aop.MethodMonitorAdvice">
     </beans:bean>
 </beans:beans>

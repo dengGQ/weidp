@@ -23,7 +23,7 @@
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">
 			<list>
-				<value>classpath:conf/db/druid-oracle.properties</value>
+				<value>classpath:conf/db/druid-mysql.properties</value>
 			</list>
 		</property>
 	</bean>
@@ -116,7 +116,7 @@
 		<property name="logAbandoned" value="true" />
 	</bean>
 	
-	<bean id="dataSourceRWORR" class="com.fotic.common.dataswitch.DynamicDataSource">
+	<bean id="dataSourceRWORR" class="com.hhr.common.dataswitch.DynamicDataSource">
 		<property name="targetDataSources">
 			<map key-type="java.lang.String">
 				<entry key="update" value-ref="dataSourceRW" />

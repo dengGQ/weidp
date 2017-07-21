@@ -18,7 +18,7 @@
 		<property name="dataSource" ref="dataSourceRWORR" />
 		<!-- 自动扫描entity目录, 省掉Configuration.xml里的手工配置 -->
 		<!-- <property name="typeAliasesPackage">
-			<value>com.fotic.demo.usertest.entity</value>
+			<value>com.hhr.demo.usertest.entity</value>
 		</property> -->
 		
 		<!-- <property name="mapperLocations" value="classpath:com/fotic/test/mapper/*/*.xml" /> -->
@@ -85,7 +85,7 @@
     </bean> 
 
 	<bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
-	  <property name="basePackage" value="com.fotic.**.dao"/>
+	  <property name="basePackage" value="com.hhr.**.dao"/>
 	  <property name="markerInterface" value="tk.mybatis.mapper.common.Mapper"/>
 	  <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>  
 	  <property name="properties">
@@ -103,7 +103,7 @@
 		<property name="dataSource" ref="dataSourceRWORR" />
 	</bean>
 	<!-- 切换数据源 -->
-	<bean id="dataSourceAdvice" class="com.fotic.common.dataswitch.DataSourceAdvice">
+	<bean id="dataSourceAdvice" class="com.hhr.common.dataswitch.DataSourceAdvice">
 		<property name="sourceMap">
 			<map>
 				<entry key="update"
@@ -112,7 +112,7 @@
 		</property>
 	</bean>
 	<aop:config>
-		<aop:advisor pointcut="execution(* com.fotic..service..*Impl.*(..))"
+		<aop:advisor pointcut="execution(* com.hhr..service..*Impl.*(..))"
 			advice-ref="dataSourceAdvice" order="1" />
 	</aop:config> 
 
@@ -132,7 +132,7 @@
 	<!-- Spring aop事务管理 -->
 	<aop:config>
 		<aop:pointcut id="transactionPointcut"
-			expression="execution(* com.fotic..service..*Impl.*(..))" />
+			expression="execution(* com.hhr..service..*Impl.*(..))" />
 		<aop:advisor pointcut-ref="transactionPointcut"
 			advice-ref="transactionAdvice" order="2" />
 	</aop:config>
