@@ -1,17 +1,8 @@
 package com.hhr.base.controller;
 
-import java.sql.CallableStatement;
-import java.sql.Connection;
-import java.sql.SQLException;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataAccessException;
-import org.springframework.jdbc.core.CallableStatementCallback;
-import org.springframework.jdbc.core.CallableStatementCreator;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
-
-import oracle.jdbc.OracleTypes;
 
 @Controller
 public class BaseController {
@@ -60,7 +51,7 @@ public class BaseController {
 	 * @param procedureName
 	 * @param params
 	 * @return
-	 */
+	 *
 	public String procedureInvokeRetString(String procedureName, String... params) {
 		StringBuffer sql = new StringBuffer();
 		sql.append("{call ").append(procedureName).append("(");
@@ -101,5 +92,5 @@ public class BaseController {
 		};
 		String outParamVal = (String) jdbcTemplate.execute(statement, callback);
 		return "{"+outParamVal+"}";
-	}
+	}*/
 }

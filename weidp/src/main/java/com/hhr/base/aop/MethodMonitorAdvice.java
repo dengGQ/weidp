@@ -12,7 +12,7 @@ import org.springframework.util.StopWatch;
 public class MethodMonitorAdvice {
 	private static Logger logger = LoggerFactory.getLogger(MethodMonitorAdvice.class);
 
-    @Pointcut("execution(* com.fotic..service.impl.*.*(..))")
+    @Pointcut("execution(* com.hhr..service.impl.*.*(..))")
     private void serviceMethod() {
     }
 

@@ -16,7 +16,7 @@
     </bean>  
   
     <!-- 項目自定义的Realm  -->
-    <bean id="shiroDbRealm" class="com.fotic.auth.realm.LoginRealm">  
+    <bean id="shiroDbRealm" class="com.hhr.auth.realm.LoginRealm">  
         <!-- <property name="cacheManager" ref="cacheManager" />  --> 
     </bean>    
   

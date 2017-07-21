@@ -29,7 +29,7 @@ import org.springframework.beans.BeansException;
 /**
  * 
 * @Title: PubMethod.java 
-* @Package com.fotic.common.util 
+* @Package com.hhr.common.util 
 * @Description: 工具方法   字符串操作 空值判断  日期操作 生成ID 
 * @author 王明月   
 * @date 2017年6月8日 下午5:15:56
