@@ -11,8 +11,8 @@ import org.apache.shiro.subject.Subject.Builder;
 import org.apache.shiro.util.ThreadContext;
 import org.apache.shiro.web.subject.WebSubject;
 
-import com.fotic.auth.entity.LoginUser;
-import com.fotic.common.util.SessionUtil;
+import com.hhr.auth.entity.LoginUser;
+import com.hhr.common.util.SessionUtil;
 
 import edu.yale.its.tp.cas.client.IContextInit;
 

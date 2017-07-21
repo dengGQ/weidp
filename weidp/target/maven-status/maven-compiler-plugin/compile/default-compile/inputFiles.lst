@@ -1,126 +1,41 @@
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\dao\SubmitAddressHisMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\auth\service\ILoginUserService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\constant\FileConstant.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\configuration\dao\NotSumitConfgInfoMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\dataswitch\DynamicDataSource.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\projectmanage\dao\BizProjectMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\errormessage\dao\CheckResultMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\reported\entity\SubmitPerTrade.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\unreported\service\IUnreportedService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\util\PubMethod.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\trade\service\impl\SubmitTradeHisServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\util\FileListUtils.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\errormessage\service\ICheckResultService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\reported\providers\SubmitPerTradeProvider.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\service\PublicQueryService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\trade\controller\SubmitTradeHisController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\configuration\dao\NotSumitConfgMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\dataswitch\DataSourceSwitcher.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\configuration\entity\NotSumitConfgInfo.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\auth\service\impl\LoginUserServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\dataswitch\DataSourceAdvice.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\entity\RhzxProdure.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\trade\service\SubmitTradeHisService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\controller\CustomerController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\check\controller\CheckController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\service\impl\CreditAdmServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\entity\SubmitAddressHis.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\unreported\providers\UnreportedProvider.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\entity\SubmtSpetradfHis.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\service\ISubmitAddressHisService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\service\SubmitEmpHisService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\service\ICreditAdmService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\dao\SubmtPersonHisMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\dao\SubmtSpetradfHisMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\errormessage\entity\CheckResult.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\auth\entity\LoginUser.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\ftp\pool\Pool.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\ftp\FtpUtil.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\util\RandomStringUtil.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\dao\RhzxContractMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\base\aop\MethodMonitorAdvice.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\enums\CommonEnum.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\util\DateUtils.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\service\impl\ActualRepayServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\datacheck\providers\DataCheckProvider.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\dao\RhzxOrgMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\entity\RhzxOrg.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\reported\service\impl\SubmitPerTradeServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\test\controller\TestController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\util\DsJobUtil.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\service\ISubmtSpetradfHisService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\reported\controller\ReportedController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\reported\dao\SubmitPerTradeMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\ui\ztree\BuildTreeNodeUtils.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\entity\ActualRepay.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\service\impl\SubmitAddressHisServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\ftp\pool\FTPPoolableObjectFactory.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\unreported\dao\UnreportedMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\base\controller\BaseController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\unreported\controller\UnreportedController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\auth\controller\UserLoginController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\projectmanage\service\impl\BizProjectServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\providers\RhzxSubmtPerTradeProvider.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\configuration\controller\DataReportCfgController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\entity\RhzxSubmtPerTrade.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\test\service\ITestService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\reported\service\IReportedService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\unreported\service\impl\UnreportedServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\dao\SubmitEmpHisMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\controller\FileOperateController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\datacheck\service\impl\DataCheckServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\service\impl\SubmtSpetradfHisServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\service\IActualRepayService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\controller\CreditAdmController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\service\impl\SubmitEmpHisServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\trade\dao\SubmitTradeHisMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\datacheck\dao\DataCheckMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\service\ISubmtPersonHisService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\auth\dao\LoginUserMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\reported\service\ISubmitPerTradeService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\service\impl\SubmtPersonHisServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\test\dao\TestMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\util\StringUtils.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\controller\ActualRepayController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\test\model\Test.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\reported\service\impl\ReportedServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\configuration\service\impl\NotSumitConfgServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\datacheck\controller\DataCheckController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\configuration\service\INotSumitConfgService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\jdbc\JdbcTmeplateDao.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\entity\RhzxCsvLoadLog.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\datacheck\service\IDataCheckService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\dao\ProjectMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\unreported\entity\ViewUnreported.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\projectmanage\controller\ProjectController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\iss\framework\web\page\SSOInitContext.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\entity\SubmitEmpHis.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\entity\RhzxContract.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\util\ZipUtils.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\errormessage\controller\ErrorMessageController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\trade\entity\SubmitTradeHis.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\dao\RhzxSubmtPerTradeMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\service\impl\PublicQueryServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\util\PropertiesUtil.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\errormessage\service\impl\CheckResultImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\auth\realm\LoginRealm.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\service\IRhzxCsvLoadLogService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\dao\RhzxCsvLoadLogMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\configuration\entity\NotSumitConfg.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\service\IProcedureInvokeService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\customer\entity\SubmtPersonHis.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\ftp\pool\FTPPool.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\service\impl\RhzxCsvLoadLogServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\util\FastJsonUtils.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\test\service\impl\TestServiceImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\exception\FTPClientException.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\projectmanage\service\BizProjectService.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\jdbc\impl\JdbcTmeplateDaoImpl.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\projectmanage\entity\BizProject.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\entity\Project.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\controller\PublicQueryController.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\publicquery\dao\RhzxProdureMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\util\SessionUtil.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\common\ui\ztree\TreeNode.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\creditinfo\dao\ActualRepayMapper.java
-E:\Eclipse WorkSpace\regulatory_center\src\main\java\com\fotic\management\datacheck\entity\SelfCheckExprt.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\management\productManage\service\ProductService.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\ftp\FtpUtil.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\base\aop\MethodMonitorAdvice.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\auth\dao\LoginUserMapper.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\ftp\pool\FTPPool.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\util\FastJsonUtils.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\management\pictureManage\dao\PictureMapper.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\management\pictureManage\controller\PictureController.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\dataswitch\DataSourceAdvice.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\util\PropertiesUtil.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\ftp\pool\Pool.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\util\StringUtils.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\management\productManage\entity\Product.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\management\pictureManage\entity\Picture.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\util\FileListUtils.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\management\productManage\controller\ProductController.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\util\ZipUtils.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\management\pictureManage\service\impl\PictureServiceImpl.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\dataswitch\DataSourceSwitcher.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\auth\service\ILoginUserService.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\util\SessionUtil.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\auth\controller\UserLoginController.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\constant\FileConstant.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\auth\realm\LoginRealm.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\util\DateUtils.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\ui\ztree\TreeNode.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\util\RandomStringUtil.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\dataswitch\DynamicDataSource.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\ui\ztree\BuildTreeNodeUtils.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\util\DsJobUtil.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\util\PubMethod.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\auth\entity\LoginUser.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\enums\CommonEnum.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\management\productManage\service\impl\ProductServiceImpl.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\exception\FTPClientException.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\common\ftp\pool\FTPPoolableObjectFactory.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\management\productManage\dao\ProductMapper.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\base\controller\BaseController.java
+C:\Users\Administrator\git\weidp\src\main\java\com\iss\framework\web\page\SSOInitContext.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\auth\service\impl\LoginUserServiceImpl.java
+C:\Users\Administrator\git\weidp\src\main\java\com\hhr\management\pictureManage\service\PictureService.java

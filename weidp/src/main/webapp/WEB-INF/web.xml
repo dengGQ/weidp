@@ -3,9 +3,8 @@
 	xmlns="http://java.sun.com/xml/ns/javaee"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	id="WebApp_ID" version="3.0">
-	<display-name>regulatory_center</display-name>
+	<display-name>weidp</display-name>
 
-	<display-name>FoticProject</display-name>
 	<!-- 配置过滤器 编码进行过滤 start -->
 	<filter>
 		<!-- 过滤器名称 -->
@@ -108,7 +107,7 @@
 	
 	<!-- Spring MVC配置 start -->
 	<servlet>
-		<servlet-name>FoticProject</servlet-name>
+		<servlet-name>weidp</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<description>spring mvc 配置文件</description>
@@ -118,7 +117,7 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>FoticProject</servlet-name>
+		<servlet-name>weidp</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	<!-- Spring MVC配置 end -->
