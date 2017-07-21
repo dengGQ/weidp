@@ -152,11 +152,10 @@
 				<div id="menu_style" class="menu_style">
 					<ul class="nav nav-list" id="nav_list">
 						<li class="home">
-							<!-- <a href="javascript:void(0)" name="home.html" class="iframeurl" title="">
+							<a href="javascript:void(0)" name="home.html" class="iframeurl" title="">
 								<i class="icon-home"></i>
 								<span class="menu-text"> 系统首页 </span>
-							</a> -->
-							《
+							</a>
 						</li>
 						<li>
 							<a href="#" class="dropdown-toggle">
@@ -428,7 +427,7 @@
 					</ul>
 				</div>
 
-				<iframe id="iframe" style="border: 0; width: 100%; background-color: #FFF;" name="iframe" frameborder="0" src="home.html">
+				<iframe id="iframe" style="border: 0; width: 100%; background-color: #FFF;" name="iframe" frameborder="0" src="${webRoot}/home">
 				</iframe>
 			</div>
 			<!-- /.main-content -->
