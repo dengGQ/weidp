@@ -5,7 +5,8 @@
 	<artifactId>weidp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-
+	<name>weidp</name>
+	
 	<properties>
 		<!-- 基本信息 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
