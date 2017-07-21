@@ -21,7 +21,12 @@ public class UserLoginController {
     private static Logger logger = LoggerFactory.getLogger(UserLoginController.class);  
     @Autowired
 	private ILoginUserService iLoginUserService;
-   
+    
+    @RequestMapping("/home")
+    public String home(){
+    	return "/home";
+    }
+    
     /** 
      * 初始登陆界面 
      * @param request 
